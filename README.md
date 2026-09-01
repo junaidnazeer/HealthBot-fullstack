@@ -21,7 +21,7 @@ HealthBot combines a conversational AI frontend, a Node.js backend, and a Python
 - PWA setup (manifest, icons, splash screens) and dark/light theming
 
 **Murtaza Badam — Backend, ML Engine & Deployment**
-- ML engine: ensemble of five models (Random Forest, Gradient Boosting, XGBoost, LightGBM, Naive Bayes) for symptom-based prediction, with SMOTE for class imbalance
+- ML engine: ensemble of five models (Random Forest, Gradient Boosting, Naive Bayes) for symptom-based prediction, with SMOTE for class imbalance
 - Backend API (Node.js/Express/MongoDB): auth routes, reminders, emergency notifications, Care Locator backend (OSM + Google Places hybrid)
 - Groq AI integration for conversational responses
 - Deployment across Vercel (frontend), Render (backend), and Hugging Face Spaces (ML engine)
